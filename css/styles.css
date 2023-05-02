@@ -1,0 +1,10 @@
+.navlink:hover {
+    transition: .5s;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(153, 5, 116);
+}
+
+.links {
+    padding: 8px 10px;
+}
