@@ -9,41 +9,50 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <!--"Banner"--><nav style="background-color: aqua; padding: 0 300px 100px 0;"></nav>
+    <!--"Banner"-->
     <!--BARRA DE NAVEGACIÓN-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+    <nav style="background-color: aqua;">
+      <img src="/image/banner.jpg" alt="banner" style="width: 1366px; height:200px;">
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #040505;">
+        <div class="container-fluid" style="background-color: #640083;">
           <a class="navbar-brand" href="index.html">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="productos.html">Saludo</a>
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; margin-left: 1060px;">
+              <li class="nav-item links">
+                <a class="nav-link active navlink" href="productos.html">NodeJs</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="node.html">nodeJS</a>
+              <li class="nav-item links">
+                <a class="nav-link active navlink" href="node.html">JavaScript</a>
               </li> 
-            </ul>
+            </ul> 
           </div>
         </div>
       </nav>
 
+
     <!--CONTENIDO DE LA PAGINA-->
 
-    <div class="d-grid gap-2">
-        <button class="btn btn-primary" id="botonaz" type="button" style="margin: 100px 0 407px 0;">Saludar</button>
-      </div>
+    <h1>¿Que es NodeJS?</h1>
+    <p>Node.js®, Node.js, es un entorno en tiempo de ejecución multiplataforma para la capa del servidor (en el lado del servidor) basado en JavaScript.
 
+      Node.js es un entorno controlado por eventos diseñado para crear aplicaciones escalables, permitiéndote establecer y gestionar múltiples conexiones al mismo tiempo. Gracias a esta característica, no tienes que preocuparte con el bloqueo de procesos, pues no hay bloqueos.</p>
+    
+    <h1>¿Como funciona?</h1>
+    <p>El diseño de Node.js está inspirado en sistemas como el Event Machine de Ruby o el Twisted de Python. Sin embargo, Node.js presenta un bucle de eventos como una construcción en tiempo de ejecución en lugar de una biblioteca. Este bucle de eventos es invisible para el usuario.
 
+      Otra característica especial de Node.js es que está diseñado para simplificar la comunicación. No tiene subprocesos, pero te permite aprovechar múltiples núcleos en su entorno y compartir sockets entre procesos.</p>
 
 
 
 
 
     <!--FOOTER-->
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start" style="margin-top: 50px;">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2023 Copyright:
